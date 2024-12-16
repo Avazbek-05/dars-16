@@ -1,0 +1,15 @@
+{
+  "name": "16-dars",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx tailwindcss -i ./css/style.css -o ./css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.16"
+  }
+}
