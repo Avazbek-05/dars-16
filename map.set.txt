@@ -1,0 +1,18 @@
+Map-----????
+Map--bu juftliklarni saqlash uchun ishlatiladigan obyekt,bunda harqanday turdagi malunot bo'lishi mumkin,
+masalan:string,raqam,Boolean,object va boshqalar
+set--bu Mapga yangi key va value qiymat qo'shib beradi
+get--bu Mapdagi qiymatlarni olish uchun ishlatiladigan
+hes-- bu Mapda berilqan qiymat mavjud yoki yo'qligini tekshiradi Boolean ga o'xshaydi true yoki false qaytaradi
+delete-- bu Mapda berilgan qiymatni o'chirish uchun ishlatiladi
+clear--bu Mapdagi barcha qiymatlarni o'chirib tashlaydi hammasini keye va valuelarni
+keys()--bu mapdagi barcha keylarni chiqarib beradi
+valus()---bu mapdagi basrcha value qiymtlarni chiqarib beradi
+WeakMap--bunda faqat obyektlar bo'ladi.
+
+Set----???????
+Set-ichida faqat unikal qiymat o'ladi,agar bir xil qiymat bir necha marta takrorlanga bo'lsa Set faqat birmarta saqalaydi
+add(valur)--Setga yangi qiymat qo'shadi 
+has--bu Set ichida qiymat bor yoki yo'qligini tekshirib beradi
+delete-- bu Setdda berilgan qiymatni o'chirish uchun ishlatiladi
+clear--bu Setdagi barcha qiymatlarni o'chirib tashlaydi hammasini
