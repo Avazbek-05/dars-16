@@ -1,0 +1,15 @@
+DOM -(Document Object Model)  bu veb-sahifani tuzilmasi va u bilan ishlashga imkon beruvchi dasturlash interfeysi. DOM orqali JavaScript yordamida HTML va CSS bilan ishlash sahifani o‘zgartirish yangilash yoki dinamik tarzda boshqarish mumkin.
+JavaScript yordamida DOM elementlarini tanlash usullari:
+ --document.getElementById() – id atributi bo‘yicha tanlash.
+ --document.querySelector() – CSS selektor yordamida tanlash.
+ --document.querySelectorAll() – Barcha mos elementlarni tanlash.
+ --getElementsByTagName()-teg nomiga ega barcha elementlarni qaytaradi
+ --getElementsByClassName()-class nomiga ega barcha elementlarni qaytaradi
+ Elementni o‘zgartirish
+ --innerHTML – elementning ichki HTML kodini o‘zgartiradi.
+ --textContent – faqat matnni o‘zgartiradi.
+ --setAttribute() – atributni o‘zgartirish.
+ Element qo‘shish va o‘chirish
+ -appendChild() – elementni qo‘shish
+ -removeChild() – elementni o‘chirish
+ -createElement() – yangi element yaratish.
