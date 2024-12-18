@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Goods</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/output.css" />
+    <link class="w-[50px]" rel="icon" href="./svg/logo.svg" />
+  </head>
+  <body>
+    <input type="checkbox" class="hidden" id="check" />
+    <header class="header bg-army_green w-full max-[970px]:pt-12">
+      <div
+        class="container1 flex items-center justify-between py-[10px] max-[970px]:flex-col max-[970px]:justify-center max-[970px]:items-center"
+      >
+        <label for="check"
+          ><i
+            class="fa-solid hidden max-[970px]:block absolute top-5 right-5 fa-xmark"
+          ></i
+        ></label>
+        <div class="flex items-center gap-2">
+          <img class="w-[14px]" src="./svg/lokatsiya.svg" alt="lokatsiya" />
+          <a class="font-medium text-[12px] text-white" href="#"
+            >ТЦ Горбушка, г. Москва, ул. Барклая, 8</a
+          >
+        </div>
+        <div
+          class="flex items-center gap-[46px] text-white font-medium text-[12px] max-[970px]:flex-col max-[970px]:gap-8"
+        >
+          <a href="#">О компании</a>
+          <a href="#">Доставка и оплата</a>
+          <a href="#">Обмен и возврат</a>
+          <a href="#">Гарантия и сервис</a>
+          <a href="#">Контакты</a>
+        </div>
+      </div>
+    </header>
+    <section class="mt-[13px]">
+      <div class="container1 flex gap-10 w-full items-center">
+        <img
+          class="w-[118px] max-[1190px]:w-[100px] h-[58px]"
+          src="./svg/logo.svg"
+          alt="logo"
+        />
+        <div class="w-full flex flex-col gap-[21px] max-[420px]:flex-row">
+          <div
+            class="flex w-full items-center justify-between max-[420px]:hidden"
+          >
+            <div
+              class="border pl-5 border-light_gray rounded-[8px] flex items-center justify-between w-[300px] max-[577px]:w-full"
+            >
+              <input
+                class="bg-none w-full outline-none"
+                type="search"
+                placeholder="Поиск"
+              />
+              <button
+                class="flex items-center rounded-[6px] gap-[11px] bg-forest_green p-[9px_16px] text-white text-[14px] font-medium"
+              >
+                <i class="fa-solid text-[12px] fa-magnifying-glass"></i>
+                Найти
+              </button>
+            </div>
+            <div class="flex items-center gap-[10px] max-[577px]:hidden">
+              <button
+                class="p-[8px] rounded-full bg-[#F4F4F4] hover:bg-[#a6a4a4] hover:transition-all hover:duration-200"
+              >
+                <img src="./svg/telegram.svg" alt="" />
+              </button>
+              <button
+                class="p-[8px] rounded-full bg-[#F4F4F4] hover:bg-[#a6a4a4] hover:transition-all hover:duration-200"
+              >
+                <img src="./svg/tel.svg" alt="" />
+              </button>
+            </div>
+
+            <div class="flex items-center gap-[40px] max-[695px]:hidden">
+              <div class="flex items-center gap-2 max-[920px]:hidden">
+                <i class="fa-solid text-forest_green text-[17px] fa-phone"></i>
+                <a
+                  class="text-[16px] font-medium text-black"
+                  href="tel:+7 (916) 842-34-30"
+                  >+7 (916) 842-34-30</a
+                >
+              </div>
+              <div class="flex items-center gap-[18px]">
+                <img src="./svg/icon-svg.svg" alt="" />
+                <img src="./svg/like.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="flex items-center justify-between w-full">
+            <div
+              class="flex justify-between items-center rounded-[6px] gap-[11px] bg-forest_green p-[9px_16px] text-white text-[14px] font-medium max-[550px]:w-full"
+            >
+              <label for="check">
+                <i class="fa-solid text-[22px] fa-bars"></i
+              ></label>
+              <a href="./katalog.html"> Каталог</a>
+            </div>
+            <button
+              class="bg-soft_gray rounded-[63px] text-[15px] font-medium text-forest_green p-[7px_14px] max-[1175px]:hidden"
+            >
+              iPhone 14 Pro Макс 256
+            </button>
+            <div
+              class="flex items-center gap-[39px] text-[15px] font-medium text-dark_gray max-[420px]:hidden"
+            >
+              <a class="max-[960px]:hidden" href="#">Apple TV 4K 2022</a>
+              <a class="max-[785px]:hidden" href="#">
+                Apple Watch Series Ultra</a
+              >
+              <a class="max-[550px]:hidden" href="#">MacBook Pro 14 M2</a>
+              <a href="#">iPad Pro M2</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- showcase -->
+    <section class="mt-10">
+      <div class="container1">
+        <div
+          class="flex items-center gap-2 text-[#aaa] text-[12px] font-medium max-[400px]:justify-center"
+        >
+          <p>Главная /</p>
+          <p>Смартфоны /</p>
+          <p class="text-[red] hover:text-[#aaa]"><a href="./delivery.html">Доставка /</a></p>
+          <p class="text-dark_gray max-[600px]:hidden">
+            Смартфон Apple iPhone 14 Pro Max 128GB Space Black
+          </p>
+        </div>
+        <h1
+          class="text-[37px] font-medium pt-5 max-[1220px]:text-[25px] max-[500px]:text-[18px] max-[500px]:text-center"
+        >
+          Смартфон Apple iPhone 14 Pro Max 128GB Space Black
+        </h1>
+        <div
+          class="flex gap-[131px] mt-[50px] max-[1200px]:gap-20 max-[1065px]:flex-col-reverse"
+        >
+          <!-- 1 -->
+          <div
+            class="w-[50%] max-[1065px]:m-auto max-[1065px]:w-[60%] max-[700px]:w-full"
+          >
+            <div>
+              <div class="flex items-center justify-between">
+                <p
+                  class="text-[16px] font-semibold text-dark_gray p-[5px_8px] bg-[#d2e5d2]"
+                >
+                  Хит
+                </p>
+                <div class="flex items-center gap-4">
+                  <i
+                    class="fa-solid text-[#b9b9b9] hover:text-black fa-signal"
+                  ></i>
+                  <i class="fa-regular hover:text-[red] fa-heart"></i>
+                </div>
+              </div>
+              <img
+                class="mt-[15px] m-auto w-[350px] h-[350px] max-[400px]:w-full"
+                src="./img/iiphon-16.png"
+                alt=""
+              />
+            </div>
+
+            <div
+              class="flex items-center justify-center gap-5 mt-14 max-[1065px]:justify-between flex-wrap max-[293px]:justify-center"
+            >
+              <div
+                class="border border-[#7E7E7E54] rounded-[7px] w-fit p-3 max-[300px]:w-full text-center"
+              >
+                <img
+                  class="w-[96px] h-[96px] m-auto"
+                  src="./img/iiphon-16.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="border border-[#7E7E7E54] rounded-[7px] w-fit p-3 max-[300px]:w-full text-center"
+              >
+                <img
+                  class="w-[96px] h-[96px] m-auto"
+                  src="./img/iiphon-16.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="border border-[#7E7E7E54] rounded-[7px] w-fit p-3 max-[300px]:w-full text-center"
+              >
+                <img
+                  class="w-[96px] h-[96px] m-auto"
+                  src="./img/iiphon-16.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div
+            class="w-[50%] max-[1065px]:m-auto max-[1065px]:w-[80%] max-[900px]:w-full"
+          >
+            <div
+              class="flex items-center gap-6 text-[26px] font-medium max-[700px]:justify-center max-[340px]:text-[18px]"
+            >
+              <h2>126 690 ₽</h2>
+              <h2 class="text-[#b3b3b3] line-through">136 690 ₽</h2>
+            </div>
+            <div
+              class="flex items-center gap-[18px] mt-5 max-[700px]:justify-center"
+            >
+              <div class="flex items-center gap-1">
+                <img class="w-[12px]" src="./svg/star.svg" alt="" />
+                <img class="w-[12px]" src="./svg/star.svg" alt="" />
+                <img class="w-[12px]" src="./svg/star.svg" alt="" />
+                <img class="w-[12px]" src="./svg/star.svg" alt="" />
+                <img class="w-[12px]" src="./svg/star.svg" alt="" />
+              </div>
+              <p class="text-[15px] font-medium underline">Смотреть отзывы</p>
+            </div>
+            <div class="bg-[#fcfcfc] rounded-[7px] p-[16px] mt-5">
+              <div class="flex flex-col gap-2">
+                <p class="text-[13px] font-medium text-[#302f02]">Модель:</p>
+                <div class="flex items-center gap-2 flex-wrap">
+                  <button
+                    class="border-2 border-[#d9d9d9] p-[4.5px_8px] rounded-[8px] hover:border-[#3e4d31] text-[#9a9a9a] text-[13px] font-medium hover:text-forest_green"
+                  >
+                    iPhone 13
+                  </button>
+                  <button
+                    class="border-2 border-[#d9d9d9] p-[4.5px_8px] rounded-[8px] hover:border-[#3e4d31] text-[#9a9a9a] text-[13px] font-medium hover:text-forest_green"
+                  >
+                    13 mini
+                  </button>
+                  <button
+                    class="border-2 border-[#d9d9d9] p-[4.5px_8px] rounded-[8px] hover:border-[#3e4d31] text-[#9a9a9a] text-[13px] font-medium hover:text-forest_green"
+                  >
+                    13 Pro
+                  </button>
+                  <button
+                    class="border-2 border-[#d9d9d9] p-[4.5px_8px] rounded-[8px] hover:border-[#3e4d31] text-[#9a9a9a] text-[13px] font-medium hover:text-forest_green"
+                  >
+                    13 Pro Max
+                  </button>
+                </div>
+              </div>
+              <div
+                class="mt-[25px] flex w-full justify-between max-[400px]:flex-col"
+              >
+                <div class="flex flex-col gap-2">
+                  <div class="flex flex-col gap-2">
+                    <p class="text-[#302f02] text-[13px] font-medium">Цвет:</p>
+                    <div class="flex items-center gap-2.5">
+                      <img src="./svg/doira-bleck.svg" alt="" />
+                      <img src="./svg/doira-2.svg" alt="" />
+                      <img src="./svg/doira-5.svg" alt="" />
+                    </div>
+                  </div>
+                  <div class=" ">
+                    <p class="text-[#302f02] font-medium text-[13px] py-2">
+                      Оперативная память:
+                    </p>
+                    <button
+                      class="border-2 border-[#d9d9d9] p-[4.5px_8px] rounded-[8px] hover:border-[#3e4d31] text-[#9a9a9a] text-[13px] font-medium hover:text-forest_green"
+                    >
+                      8 GB
+                    </button>
+                  </div>
+                </div>
+                <!-- 2 -->
+                <div class="">
+                  <div>
+                    <p class="text-[#302f02] font-medium text-[13px] py-2">
+                      Оперативная память:
+                    </p>
+                    <div class="flex gap-2">
+                      <button
+                        class="border-2 border-[#d9d9d9] p-[4.5px_8px] rounded-[8px] hover:border-[#3e4d31] text-[#9a9a9a] text-[13px] font-medium hover:text-forest_green"
+                      >
+                        128 GB
+                      </button>
+                      <button
+                        class="border-2 border-[#d9d9d9] p-[4.5px_8px] rounded-[8px] hover:border-[#3e4d31] text-[#9a9a9a] text-[13px] font-medium hover:text-forest_green"
+                      >
+                        256 GB
+                      </button>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="text-[#302f02] font-medium text-[13px] py-2">
+                      Экран:
+                    </p>
+                    <div class="flex gap-2">
+                      <button
+                        class="border-2 border-[#d9d9d9] p-[4.5px_8px] rounded-[8px] hover:border-[#3e4d31] text-[#9a9a9a] text-[13px] font-medium hover:text-forest_green"
+                      >
+                        6,1"
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="p-[16px_91px] bg-forest_green mt-[20px] rounded-[7px] text-white text-[15px] font-medium max-[1065px]:w-[100%]"
+            >
+              Купить
+            </button>
+            <div class="mt-[26px] flex flex-col gap-2">
+              <div
+                class="flex gap-[11px] items-center bg-[#f9f9f9c4] rounded-[7px] p-[10px_0_10px_16px]"
+              >
+                <img class="w-[17px] h-[17px]" src="./svg/cubuk-1.svg" alt="" />
+                <p class="text-[13px] font-medium text-black">
+                  Доставка по Москве в пределах МКАД от 700₽
+                </p>
+              </div>
+              <div
+                class="flex gap-[11px] items-center bg-[#f9f9f9c4] rounded-[7px] p-[10px_0_10px_16px]"
+              >
+                <img class="w-[17px] h-[17px]" src="./svg/cubuk-2.svg" alt="" />
+                <p class="text-[13px] font-medium text-black">
+                  Доставка по всей России через компанию СДЕК, по 100% оплате
+                </p>
+              </div>
+              <div
+                class="flex gap-[11px] items-center bg-[#f9f9f9c4] rounded-[7px] p-[10px_0_10px_16px]"
+              >
+                <img class="w-[17px] h-[17px]" src="./svg/cubuk-3.svg" alt="" />
+                <p class="text-[13px] font-medium text-black">
+                  Отправка происходит в течении часа после оплаты товара.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container1">
+        <div class="mt-12">
+          <div
+            class="flex items-center gap-10 text-forest_green text-[16px] font-medium"
+          >
+            <p class="p-[15px_53px] bg-[#FCFCFC] rounded-[6px_6px_0px_0px]">
+              Характеристики
+            </p>
+            <p class="max-[330px]:hidden max-[746px]:hidden">Описание товара</p>
+            <p class="max-[330px]:hidden max-[746px]:hidden">Отзывы</p>
+            <p class="max-[330px]:hidden max-[746px]:hidden">Инструкция</p>
+          </div>
+          <div
+            class="bg-[#FCFCFC] p-[43px_52px] gap-[53px] max-[500px]:p-[10px] rounded-[0_6px_6px_6px] grid grid-cols-2 max-[1087px]:grid-cols-1"
+          >
+            <div class="flex flex-col gap-2">
+              <!-- 1 -->
+              <div class="text-[13px] text-black flex justify-between">
+                <p>Экран</p>
+                <p class="border-b border-dashed w-[60%] max-[1087px]:w-[75%] max-[850px]:w-[60%] max-[590px]:w-[50%] max-[500px]:w-[40%] max-[340px]:w-[20%] "></p>
+                <p>6.7"/2796x1290 Пикс</p>
+              </div>
+              <!-- 2 -->
+              <div class="text-[13px] text-black flex justify-between">
+                <p>Экран</p>
+                <p class="border-b border-dashed w-[60%] max-[1087px]:w-[75%] max-[850px]:w-[60%] max-[590px]:w-[50%] max-[500px]:w-[40%] max-[340px]:w-[20%] "></p>
+                <p>6.7"/2796x1290 Пикс</p>
+              </div>
+              <!-- 3 -->
+              <div class="text-[13px] text-black flex justify-between">
+                <p>Экран</p>
+                <p class="border-b border-dashed w-[60%] max-[1087px]:w-[75%] max-[850px]:w-[60%] max-[590px]:w-[50%] max-[500px]:w-[40%] max-[340px]:w-[20%]"></p>
+                <p>6.7"/2796x1290 Пикс</p>
+              </div>
+              <!--  4-->
+              <div class="text-[13px] text-black flex justify-between">
+                <p>Экран</p>
+                <p class="border-b border-dashed w-[60%] max-[1087px]:w-[75%] max-[850px]:w-[60%] max-[590px]:w-[50%] max-[500px]:w-[40%] max-[340px]:w-[20%]"></p>
+                <p>6.7"/2796x1290 Пикс</p>
+              </div>
+              <!-- 5 -->
+              <div class="text-[13px] text-black flex justify-between">
+                <p>Экран</p>
+                <p class="border-b border-dashed w-[60%] max-[1087px]:w-[75%] max-[850px]:w-[60%] max-[590px]:w-[50%] max-[500px]:w-[40%] max-[340px]:w-[20%]"></p>
+                <p>6.7"/2796x1290 Пикс</p>
+              </div>
+              <!-- 6 -->
+              <div class="text-[13px] text-black flex justify-between">
+                <p>Экран</p>
+                <p class="border-b border-dashed w-[60%] max-[1087px]:w-[75%] max-[850px]:w-[60%] max-[590px]:w-[50%] max-[500px]:w-[40%] max-[340px]:w-[20%]"></p>
+                <p>6.7"/2796x1290 Пикс</p>
+              </div>
+              <!-- 7 -->
+              <div class="text-[13px] text-black flex justify-between">
+                <p>Экран</p>
+                <p class="border-b border-dashed w-[60%] max-[1087px]:w-[75%] max-[850px]:w-[60%] max-[590px]:w-[50%] max-[500px]:w-[40%] max-[340px]:w-[20%]"></p>
+                <p>6.7"/2796x1290 Пикс</p>
+              </div>
+              <!-- 8 -->
+              <div class="text-[13px] text-black flex justify-between">
+                <p>Экран</p>
+                <p class="border-b border-dashed w-[60%] max-[1087px]:w-[75%] max-[850px]:w-[60%] max-[590px]:w-[50%] max-[500px]:w-[40%] max-[340px]:w-[20%]"></p>
+                <p>6.7"/2796x1290 Пикс</p>
+              </div>
+            </div>
+
+
+            <!-- 22222 -->
+
+
+            <div class="flex flex-col gap-2">
+                <!-- 1 -->
+                <div class="text-[13px] text-black flex justify-between">
+                  <p>Экран</p>
+                  <p class="border-b border-dashed w-[60%] max-[1087px]:w-[75%] max-[850px]:w-[60%] max-[590px]:w-[50%] max-[500px]:w-[40%] max-[340px]:w-[20%]"></p>
+                  <p>6.7"/2796x1290 Пикс</p>
+                </div>
+                <!-- 2 -->
+                <div class="text-[13px] text-black flex justify-between">
+                  <p>Экран</p>
+                  <p class="border-b border-dashed w-[60%] max-[1087px]:w-[75%] max-[850px]:w-[60%] max-[590px]:w-[50%] max-[500px]:w-[40%] max-[340px]:w-[20%]"></p>
+                  <p>6.7"/2796x1290 Пикс</p>
+                </div>
+                <!-- 3 -->
+                <div class="text-[13px] text-black flex justify-between">
+                  <p>Экран</p>
+                  <p class="border-b border-dashed w-[60%] max-[1087px]:w-[75%] max-[850px]:w-[60%] max-[590px]:w-[50%] max-[500px]:w-[40%] max-[340px]:w-[20%]"></p>
+                  <p>6.7"/2796x1290 Пикс</p>
+                </div>
+                <!--  4-->
+                <div class="text-[13px] text-black flex justify-between">
+                  <p>Экран</p>
+                  <p class="border-b border-dashed w-[60%] max-[1087px]:w-[75%] max-[850px]:w-[60%] max-[590px]:w-[50%] max-[500px]:w-[40%] max-[340px]:w-[20%]"></p>
+                  <p>6.7"/2796x1290 Пикс</p>
+                </div>
+                <!-- 5 -->
+                <div class="text-[13px] text-black flex justify-between">
+                  <p>Экран</p>
+                  <p class="border-b border-dashed w-[60%] max-[1087px]:w-[75%] max-[850px]:w-[60%] max-[590px]:w-[50%] max-[500px]:w-[40%] max-[340px]:w-[20%]"></p>
+                  <p>6.7"/2796x1290 Пикс</p>
+                </div>
+                <!-- 6 -->
+                <div class="text-[13px] text-black flex justify-between">
+                  <p>Экран</p>
+                  <p class="border-b border-dashed w-[60%] max-[1087px]:w-[75%] max-[850px]:w-[60%] max-[590px]:w-[50%] max-[500px]:w-[40%] max-[340px]:w-[20%]"></p>
+                  <p>6.7"/2796x1290 Пикс</p>
+                </div>
+                <!-- 7 -->
+                <div class="text-[13px] text-black flex justify-between">
+                  <p>Экран</p>
+                  <p class="border-b border-dashed w-[60%] max-[1087px]:w-[75%] max-[850px]:w-[60%] max-[590px]:w-[50%] max-[500px]:w-[40%] max-[340px]:w-[20%]"></p>
+                  <p>6.7"/2796x1290 Пикс</p>
+                </div>
+                <!-- 8 -->
+                <div class="text-[13px] text-black flex justify-between">
+                  <p>Экран</p>
+                  <p class="border-b border-dashed w-[60%] max-[1087px]:w-[75%] max-[850px]:w-[60%] max-[590px]:w-[50%] max-[500px]:w-[40%] max-[340px]:w-[20%]"></p>
+                  <p>6.7"/2796x1290 Пикс</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-20">
+        <div class="container1">
+          <h2
+            class="text-center text-[37px] font-medium text-dark_gray max-[600px]:text-[20px]"
+          >
+            Просмотренные товары
+          </h2>
+  
+          <div
+            class="grid grid-cols-4 mt-[30px] max-[1157px]:grid-cols-2 max-[577px]:grid-cols-1"
+          >
+            <!-- 1 -->
+            <div class="border p-[23px_25px] max-[900px]:w-full">
+              <div class="flex items-center justify-between">
+                <p
+                  class="text-[16px] font-semibold text-dark_gray p-[5px_8px] bg-[#d2e5d2]"
+                >
+                  Хит
+                </p>
+                <div class="flex items-center gap-4">
+                  <i
+                    class="fa-solid text-[#b9b9b9] hover:text-black fa-signal"
+                  ></i>
+                  <i class="fa-regular hover:text-[red] fa-heart"></i>
+                </div>
+              </div>
+              <img
+                class="w-[110px] h-[125px] m-auto py-[16px]"
+                src="./img/card-1.png"
+                alt=""
+              />
+              <p class="text-[15px] font-medium text-dark_gray max-w-[318px]">
+                Умные часы Apple Watch SE 40 мм Aluminium Case, серебристый/синий
+                омут
+              </p>
+              <div
+                class="flex items-end justify-between max-[300px]:flex-col max-[300px]:items-start"
+              >
+                <div class="flex flex-col gap-[11px]">
+                  <div class="flex items-center gap-[3px]">
+                    <img src="./svg/star.svg" alt="" />
+                    <img src="./svg/star.svg" alt="" />
+                    <img src="./svg/star.svg" alt="" />
+                    <img src="./svg/star.svg" alt="" />
+                    <img src="./svg/star.svg" alt="" />
+                  </div>
+                  <p class="text-[#919191] text-[16px] line-through">33 990 ₽</p>
+                  <h2 class="text-[25px] font-bold text-dark_gray">31 990 ₽</h2>
+                </div>
+                <button
+                  class="p-[9px_26px] bg-forest_green rounded-[7px] text-[16px] font-medium text-white max-[300px]:w-full hover:bg-[blue] hover:transition-all hover:duration-200"
+                >
+                  Купить
+                </button>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="border p-[23px_25px] max-[900px]:w-full">
+              <div class="flex items-center justify-between">
+                <p
+                  class="text-[16px] font-semibold text-dark_gray p-[5px_8px] bg-[#d2e5d2]"
+                >
+                  Хит
+                </p>
+                <div class="flex items-center gap-4">
+                  <i
+                    class="fa-solid text-[#b9b9b9] hover:text-black fa-signal"
+                  ></i>
+                  <i class="fa-regular hover:text-[red] fa-heart"></i>
+                </div>
+              </div>
+              <img
+                class="w-[110px] h-[125px] m-auto py-[16px]"
+                src="./img/card-2.png"
+                alt=""
+              />
+              <p class="text-[15px] font-medium text-dark_gray max-w-[318px]">
+                Умные часы Apple Watch SE 40 мм Aluminium Case, серебристый/синий
+                омут
+              </p>
+              <div
+                class="flex items-end justify-between max-[300px]:flex-col max-[300px]:items-start"
+              >
+                <div class="flex flex-col gap-[11px]">
+                  <div class="flex items-center gap-[3px]">
+                    <img src="./svg/star.svg" alt="" />
+                    <img src="./svg/star.svg" alt="" />
+                    <img src="./svg/star.svg" alt="" />
+                    <img src="./svg/star.svg" alt="" />
+                    <img src="./svg/star.svg" alt="" />
+                  </div>
+                  <p class="text-[#919191] text-[16px] line-through">33 990 ₽</p>
+                  <h2 class="text-[25px] font-bold text-dark_gray">31 990 ₽</h2>
+                </div>
+                <button
+                  class="p-[9px_26px] bg-forest_green rounded-[7px] text-[16px] font-medium text-white max-[300px]:w-full hover:bg-[blue] hover:transition-all hover:duration-200"
+                >
+                  Купить
+                </button>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="border p-[23px_25px] max-[900px]:w-full">
+              <div class="flex items-center justify-between">
+                <p
+                  class="text-[16px] font-semibold text-dark_gray p-[5px_8px] bg-[#d2e5d2]"
+                >
+                  Хит
+                </p>
+                <div class="flex items-center gap-4">
+                  <i
+                    class="fa-solid text-[#b9b9b9] hover:text-black fa-signal"
+                  ></i>
+                  <i class="fa-regular hover:text-[red] fa-heart"></i>
+                </div>
+              </div>
+              <img
+                class="w-[110px] h-[125px] m-auto py-[16px]"
+                src="./img/card-3.png"
+                alt=""
+              />
+              <p class="text-[15px] font-medium text-dark_gray max-w-[318px]">
+                Умные часы Apple Watch SE 40 мм Aluminium Case, серебристый/синий
+                омут
+              </p>
+              <div
+                class="flex items-end justify-between max-[300px]:flex-col max-[300px]:items-start"
+              >
+                <div class="flex flex-col gap-[11px]">
+                  <div class="flex items-center gap-[3px]">
+                    <img src="./svg/star.svg" alt="" />
+                    <img src="./svg/star.svg" alt="" />
+                    <img src="./svg/star.svg" alt="" />
+                    <img src="./svg/star.svg" alt="" />
+                    <img src="./svg/star.svg" alt="" />
+                  </div>
+                  <p class="text-[#919191] text-[16px] line-through">33 990 ₽</p>
+                  <h2 class="text-[25px] font-bold text-dark_gray">31 990 ₽</h2>
+                </div>
+                <button
+                  class="p-[9px_26px] bg-forest_green rounded-[7px] text-[16px] font-medium text-white max-[300px]:w-full hover:bg-[blue] hover:transition-all hover:duration-200"
+                >
+                  Купить
+                </button>
+              </div>
+            </div>
+            <!-- 4 -->
+            <div class="border p-[23px_25px] max-[900px]:w-full">
+              <div class="flex items-center justify-between">
+                <p
+                  class="text-[16px] font-semibold text-dark_gray p-[5px_8px] bg-[#d2e5d2]"
+                >
+                  Хит
+                </p>
+                <div class="flex items-center gap-4">
+                  <i
+                    class="fa-solid text-[#b9b9b9] hover:text-black fa-signal"
+                  ></i>
+                  <i class="fa-regular hover:text-[red] fa-heart"></i>
+                </div>
+              </div>
+              <img
+                class="w-[110px] h-[125px] m-auto py-[16px]"
+                src="./img/card-1.png"
+                alt=""
+              />
+              <p class="text-[15px] font-medium text-dark_gray max-w-[318px]">
+                Умные часы Apple Watch SE 40 мм Aluminium Case, серебристый/синий
+                омут
+              </p>
+              <div
+                class="flex items-end justify-between max-[300px]:flex-col max-[300px]:items-start"
+              >
+                <div class="flex flex-col gap-[11px]">
+                  <div class="flex items-center gap-[3px]">
+                    <img src="./svg/star.svg" alt="" />
+                    <img src="./svg/star.svg" alt="" />
+                    <img src="./svg/star.svg" alt="" />
+                    <img src="./svg/star.svg" alt="" />
+                    <img src="./svg/star.svg" alt="" />
+                  </div>
+                  <p class="text-[#919191] text-[16px] line-through">33 990 ₽</p>
+                  <h2 class="text-[25px] font-bold text-dark_gray">31 990 ₽</h2>
+                </div>
+                <button
+                  class="p-[9px_26px] bg-forest_green rounded-[7px] text-[16px] font-medium text-white max-[300px]:w-full hover:bg-[blue] hover:transition-all hover:duration-200"
+                >
+                  Купить
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <footer class="bg-army_green mt-20">
+        <div
+          class="container1 py-[52px] flex items-center justify-between max-[1085px]:flex-col max-[1085px]:gap-5"
+        >
+          <div
+            class="flex gap-[78px] items-center max-[480px]:gap-12 max-[480px]:flex-col"
+          >
+            <img class="w-[118px]" src="./svg/logo-2.svg" alt="" />
+            <div
+              class="flex flex-col gap-[15px] text-[13px] text-white max-[480px]:text-center"
+            >
+              <a href="#">О компании</a>
+              <a href="#">Доставка и оплата</a>
+              <a href="#">Обмен и возврат</a>
+            </div>
+            <div
+              class="flex flex-col gap-[15px] text-[13px] text-white max-[600px]:hidden"
+            >
+              <a href="#">Гарантия и сервис</a>
+              <a href="#">Контакты</a>
+              <a href="#">Каталог</a>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div
+            class="flex items-center gap-[96px] max-[521px]:gap-12 max-[480px]:flex-col"
+          >
+            <div class="flex flex-col gap-[19px] max-[480px]:text-center">
+              <div class="flex gap-[7px] items-center">
+                <div class="w-2 h-2 bg-white rounded-full"></div>
+                <a class="text-[13px] text-white max-w-[140px]" href="#"
+                  >ТЦ Горбушка, г. Москва, ул. Барклая, 8</a
+                >
+              </div>
+              <div class="flex gap-[7px] items-center">
+                <div class="w-2 h-2 bg-white rounded-full"></div>
+                <a class="text-[13px] text-white" href="#"
+                  >10:00 — 21:00 без выходных</a
+                >
+              </div>
+            </div>
+            <div class="flex flex-col items-end w-full max-[480px]:items-center">
+              <div class="flex items-center gap-2 max-[480px]:text-center">
+                <i class="fa-solid text-white text-[17px] fa-phone"></i>
+                <a
+                  class="text-[16px] font-medium text-white"
+                  href="tel:+7 (916) 842-34-30"
+                  >+7 (916) 842-34-30</a
+                >
+              </div>
+              <a
+                class="text-[13px] p-[7px_0_20px_0] text-white"
+                href="maillo:gorbushka-moscow@yandex.ru"
+                >gorbushka-moscow@yandex.ru</a
+              >
+              <div class="flex items-center gap-[10px] max-[480px]:m-auto">
+                <button
+                  class="p-[8px] rounded-full bg-[#F4F4F4] hover:bg-[#a6a4a4] hover:transition-all hover:duration-200"
+                >
+                  <img src="./svg/telegram.svg" alt="" />
+                </button>
+                <button
+                  class="p-[8px] rounded-full bg-[#F4F4F4] hover:bg-[#a6a4a4] hover:transition-all hover:duration-200"
+                >
+                  <img src="./svg/tel.svg" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+  
+      <section>
+        <div
+          class="container1 flex items-center justify-between py-[25px] max-[726px]:flex-col max-[726px]:gap-5"
+        >
+          <div
+            class="flex items-center gap-[42px] text-[13px] text-dark_gray max-[482px]:flex-col"
+          >
+            <p>© 2023 gorbushka-moscow</p>
+            <p>Политика кон фиденциальности</p>
+          </div>
+          <div class="flex items-center gap-3">
+            <img src="./svg/CC.svg" alt="" />
+            <p class="text-[13px] max-w-[155px]">
+              Разработка сайта Студия «СТРОИМ САЙТ»
+            </p>
+          </div>
+        </div>
+      </section>
+  </body>
+</html>
